@@ -2,7 +2,7 @@
 
 This library includes three files. 
 
-1. IRM_games_jmtd_illstration_notebook.ipynb: Jupyter notebook serves as the tutorial where we compare the IRM games methods, IRM from Arjovsky et.al. and standard ERM. 
+1. IRM_games_jmtd_illstration_notebook.ipynb: Jupyter notebook serves as the tutorial. In this tutorial, we compare the IRM games methods, IRM from Arjovsky et.al. and standard ERM. 
 
 
 2. data_construct.py: we define two classes in this file; one class corresponds to colored MNIST digits and other class corresponds to colored Fashion MNIST. These classes give the functionality of how much correlation we want to induce with the colors, how many environments we want. (See the tutorial notebook for details)
