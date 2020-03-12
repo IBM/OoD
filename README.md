@@ -11,10 +11,10 @@ This library includes three files.
 3. IRM_methods.py: consists of four classes. 
 
 
-a. fixed_irm_game_model
-b. variable_irm_game_model
-c. irm_model
-d. standard_erm_model
+    a. fixed_irm_game_model
+    b. variable_irm_game_model
+    c. irm_model
+    d. standard_erm_model
 
 Each of these classes have attributes similar to any sklearn class. Initialization requires us to specify the hyper-parameters for the class. fit function is called for training and evaluate function is used for evaluation. (See tutorial notebook for details).
 
