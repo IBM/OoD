@@ -18,3 +18,14 @@ IRM_methods.py: consists of four classes.
 
 Each of these classes have attributes similar to any sklearn class. Initialization requires us to specify the hyper-parameters for the class. fit function is called for training and evaluate function is used for evaluation. (See tutorial notebook for details).
 
+## Suggested Citation
+
+Kartik Ahuja, Karthikeyan Shanmugam, Kush R. Varshney, and Amit Dhurandhar, "Invariant Risk Minimization Games," arXiv:2002.04692, 2020.
+
+    @booklet{AhujaSVD2020,
+        author="Kartik Ahuja and Karthikeyan Shanmugam and Kush R. Varshney and Amit Dhurandhar",
+        title="Invariant Risk Minimization Games",
+        howpublished="arXiv:2002.04692",
+        year="2020"
+    }
+
