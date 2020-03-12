@@ -23,7 +23,7 @@ Each of these classes have attributes similar to any sklearn class. Initializati
 Clone the latest version of this repository:
 
 ```bash
-(aix360)$ git clone https://github.com/IBM/IRM-games
+$ git clone https://github.com/IBM/IRM-games.git
 ```
 
 ## Suggested Citation
