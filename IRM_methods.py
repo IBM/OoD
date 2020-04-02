@@ -509,7 +509,7 @@ class irm_model:
         train_acc =  np.float(train_accuracy(y_in, ytr_))
         
         yts_ = model.predict(x_test)
-        test_acc =  np.float(train_accuracy(y_test, yts_))
+        test_acc =  np.float(test_accuracy(y_test, yts_))
         
         self.train_acc = train_acc
         self.test_acc  = test_acc
