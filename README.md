@@ -1,6 +1,6 @@
 # IRM games
 
-This library includes three files. 
+This library includes three files and a folder. 
 
 1. IRM_games_jmtd_illstration_notebook.ipynb: Jupyter notebook serves as the tutorial. In this tutorial, we compare the IRM games methods, IRM from Arjovsky et.al. and standard ERM. 
 
@@ -20,6 +20,8 @@ This library includes three files.
     d. standard_erm_model
 
     Each of these classes have attributes similar to any sklearn class. Initialization requires us to specify the hyper-parameters for the class. fit function is called for training and evaluate function is used for evaluation. (See tutorial notebook for details).
+ 
+4. LRG_games: In this folder, we explain a new extension of IRM-games for linear regression settings (described in the paper, link to come here soon). More details can be found in the folder. 
 
 ### Installation
 
