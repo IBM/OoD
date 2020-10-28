@@ -1,6 +1,6 @@
 
 
-# LRG games
+# C-LRG regression
 
 
 There are two files and one folder.
