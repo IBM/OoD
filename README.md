@@ -1,10 +1,9 @@
 # IRM games
 
-<<<<<<< HEAD
 This library includes three files and a folder. 
-=======
-This library includes three files: 
->>>>>>> 8d0c9363646aeca8cc90f3658e1573167a69832b
+
+
+
 
 1. IRM_games_jmtd_illstration_notebook.ipynb: Jupyter notebook serves as the tutorial. In this tutorial, we compare the IRM games methods, IRM from Arjovsky et.al. and standard ERM. 
 
