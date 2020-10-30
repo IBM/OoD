@@ -24,7 +24,7 @@ This library includes three files and a folder.
 
     Each of these classes have attributes similar to any sklearn class. Initialization requires us to specify the hyper-parameters for the class. fit function is called for training and evaluate function is used for evaluation. (See tutorial notebook for details).
  
-4. LRG_games: In this folder, we explain a new extension of IRM-games for linear regression settings (described in the paper, link to come here soon). More details can be found in the folder. 
+4. LRG_games: In this folder, we explain a new extension of IRM-games for linear regression settings (described in the [paper](https://arxiv.org/pdf/2010.15234.pdf)). More details can be found in the folder. 
 
 ### Installation
 
