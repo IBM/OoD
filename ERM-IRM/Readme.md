@@ -16,6 +16,6 @@ Regression Experiments
 1. Go to IRM_exhaustive_argparse_hper_wo_disc_Sep8.py and enter the path to the directory to save the plots in the already defined variable called dir_name 
 2. Run IRM_exhaustive_wo_disc_Sep8.sh and it will generate the plots for the four regression setups (CS-Regression, CF-Regression,AC-Regression, HB-Regression)
 
-Note our code for regression is based on original repository of [IRM](https://github.com/facebookresearch/InvariantRiskMinimization/tree/master/code/experiment_synthetic) which has its own [license](https://github.com/facebookresearch/InvariantRiskMinimization/blob/master/LICENSE)
+Note our code for IRMv1 regression is based on original repository of [IRM](https://github.com/facebookresearch/InvariantRiskMinimization/tree/master/code/experiment_synthetic) which has its own [license](https://github.com/facebookresearch/InvariantRiskMinimization/blob/master/LICENSE)
 
 
