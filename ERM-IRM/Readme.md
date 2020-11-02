@@ -1,6 +1,6 @@
-## ERM or IRM? 
+## Empirical or Invariant Risk Minimization? A Sample Complexity Perspective? 
 
-Instructions on reproducing results from "Empirical or Invariant Risk Minimization? A Sample Complexity Perspective" (link to come here soon)
+Instructions on reproducing results from "Empirical or Invariant Risk Minimization? A Sample Complexity Perspective" [link](https://arxiv.org/abs/2010.16412)
 
 Classification Experiments
 
