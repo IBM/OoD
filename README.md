@@ -1,4 +1,4 @@
-# Out-of-Distribution generalization (OoD):
+# Out-of-Distribution generalization (OoD)
 
 This repository contains three folders:
 
