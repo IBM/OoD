@@ -11,7 +11,7 @@ There are two files and one folder.
 
 3. IRMv1_regression: This folder contains slight modification of the regression codes from the [IRM's repository](https://github.com/facebookresearch/InvariantRiskMinimization/tree/master/code/experiment_synthetic) and has its own [license](https://github.com/facebookresearch/InvariantRiskMinimization/blob/master/LICENSE).
 
-
+4. ERM_per_env: This folder is under construction. It contains a simple implementation of a benchmark in which ERM is implemented in every environment and features that do not vary significantly (decided based on a threshold) are declared causal and features that vary more than a threshold are declared non-causal. We retrain the model only on the causal features.
 
 ## Suggested Citation
 
