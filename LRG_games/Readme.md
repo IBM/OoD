@@ -1,9 +1,9 @@
 
 
-# C-LRG regression
+# LRG games
 
 
-There are two files and one folder.
+There are two files and three folder.
 
 1. CLRG_regression_jmtd.ipynb:  Jupyter notebook serves as the tutorial to compare the LRG games methods (described in the [paper](https://arxiv.org/pdf/2010.15234.pdf)) to IRM (Arjovsky et al.), ICP (Peters et al.) and standard ERM for linear regression models. The notebook has comments and explanations to help reproduce the results in the [paper](https://arxiv.org/pdf/2010.15234.pdf).
 
@@ -12,6 +12,9 @@ There are two files and one folder.
 3. IRMv1_regression: This folder contains slight modification of the regression codes from the [IRM's repository](https://github.com/facebookresearch/InvariantRiskMinimization/tree/master/code/experiment_synthetic) and has its own [license](https://github.com/facebookresearch/InvariantRiskMinimization/blob/master/LICENSE).
 
 4. ERM_per_env: This folder is under construction. It contains a simple implementation of a benchmark in which ERM is implemented in every environment and features that do not vary significantly (decided based on a threshold) are declared causal and features that vary more than a threshold are declared non-causal. We retrain the model only on the causal features.
+
+5. Colored_MNIST_comparisons: This folder contains the jupyter notebook illustrating the performance of adaptation of C-LRG (adapted to non-linear settings) on colored MNIST data.
+
 
 ## Suggested Citation
 
