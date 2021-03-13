@@ -25,7 +25,7 @@ Contact: abhin@mit.edu
 ### Example command
 
 ```shell
-$ python3 vary_dim_size.py --nr 10 -nd 5,10,20,35,50 --mu 0.1 --outcome_model quadratic --feature_model A
+$ python3 vary_dim_size.py --nr 10 -nd 5,10,20,35,50 --ne 2 --ntr 200 --nte 100 --mu 0.1 --outcome_model quadratic --feature_model A
 $ python3 plotting_dim.py --nr 10 -nd 5,10,20,35,50 --mu 0.1 --outcome_model quadratic --feature_model A
 ```
 
