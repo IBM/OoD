@@ -213,12 +213,8 @@ def generate_outcomes(outcome_model, feature_model, X_train, X_test, sigma_outco
     number_training_obeservations = X_train.shape[0]
     number_testing_obeservations = X_test.shape[0]
 
-    if feature_model == "A":
-        poly_coeff_control_linear = np.random.uniform(0,1,(number_dimensions + 1,1))
-        poly_coeff_treatment_linear = np.random.uniform(0,1,(number_dimensions + 1,1))
-    elif feature_model == "B":
-        poly_coeff_control_linear = np.random.uniform(0,1,(number_dimensions + 1,1))
-        poly_coeff_treatment_linear = np.random.uniform(0,1,(number_dimensions + 1,1))
+    poly_coeff_control_linear = np.random.uniform(0,1,(number_dimensions + 1,1))
+    poly_coeff_treatment_linear = np.random.uniform(0,1,(number_dimensions + 1,1))
     
     ones = np.ones((number_training_obeservations,1))
     mean_train_control = np.dot(np.concatenate((ones, X_train), axis = 1) , poly_coeff_control_linear)
@@ -228,12 +224,8 @@ def generate_outcomes(outcome_model, feature_model, X_train, X_test, sigma_outco
         mean_train_control_quad = np.zeros((number_training_obeservations, 1))
         mean_train_treatment_quad = np.zeros((number_training_obeservations, 1))
 
-        if feature_model == "A":
-            poly_coeff_control_quad = np.random.uniform(0,1,(number_dimensions,number_dimensions))
-            poly_coeff_treatment_quad = np.random.uniform(0,1,(number_dimensions,number_dimensions))
-        elif feature_model == "B":
-            poly_coeff_control_quad = np.random.uniform(0,1,(number_dimensions,number_dimensions))
-            poly_coeff_treatment_quad = np.random.uniform(0,1,(number_dimensions,number_dimensions))
+        poly_coeff_control_quad = np.random.uniform(0,1,(number_dimensions,number_dimensions))
+        poly_coeff_treatment_quad = np.random.uniform(0,1,(number_dimensions,number_dimensions))
 
         for i in range(number_training_obeservations):
             mean_train_control_quad[i,0] = X_train[i,:] @ poly_coeff_control_quad @ X_train[i,:].T
