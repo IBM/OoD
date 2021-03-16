@@ -7,6 +7,8 @@ IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP
 
 Contact: abhin@mit.edu
 
+Arxiv: [https://arxiv.org/pdf/2103.07788.pdf](https://arxiv.org/pdf/2103.07788.pdf)
+
 ### Command inputs:
 
 -   nr: number of repetitions
